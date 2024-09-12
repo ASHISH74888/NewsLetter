@@ -66,6 +66,6 @@ app.get("/", function (req, res) {
 //     res.end(filecontent);
 // })
 
-app.listen(4000, function () {
+app.listen(3000, function () {
   console.log("server is running on port 4000");
 });
