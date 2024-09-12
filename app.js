@@ -43,7 +43,6 @@ app.post("/" , function(req,res){
   });
   newlist.save();
   res.sendFile(path.join(__dirname,"public" , "success.html"));
-  res.redirect("/home")
 })
 
 // ====>> Use for send input by your own 
